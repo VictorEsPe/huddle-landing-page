@@ -1,0 +1,90 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background: url('../images/bg-mobile.svg') center top no-repeat var(--Violet);
+  background-size: contain;
+}
+
+/* HEADER */
+.header {
+  padding: 31px;
+}
+
+.header .logo img {
+  width: 149px;
+}
+
+/* MAIN */
+.main .container {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  padding: 48px;
+  text-align: center;
+  color: #fff;
+}
+
+.main .container .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main .container .description h1 {
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+.main .container .description p {
+  font-size: 1.9rem;
+  max-width: 300px;
+}
+
+.main .container .description .register-btn {
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  width: 186px;
+  color: var(--Violet);
+  border-radius: 49px;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  box-shadow: 3px 3px 10px darkslategray;
+
+  &:hover {
+    background-color: var(--Soft-Magenta);
+    color: #fff;
+  }
+}
+
+/* FOOTER */
+.social-links {
+  display: flex;
+  padding: 20px;
+  gap: 16px;
+  justify-content: center;
+}
+
+.social-links .social-link a i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #fff;
+  height: 39px;
+  width: 39px;
+  border-radius: 50%;
+  transition: .2s ease-in-out;
+  font-size: 1.8rem;
+}
+
+.social-links .social-link a:hover i {
+  color: var(--Soft-Magenta);
+  border: 1px solid var(--Soft-Magenta);
+}

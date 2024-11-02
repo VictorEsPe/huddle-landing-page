@@ -1,0 +1,81 @@
+@media (min-width: 714px) {
+  /* HEADER */
+  .header .logo img {
+    width: 186px;
+  }
+
+  /* MAIN */
+  .main .container .description h1 {
+    font-size: 3.98rem;
+    max-width: 569px;
+  }
+
+  .main .container .description p {
+    font-size: 2.3rem;
+    max-width: 455px;
+  }
+
+  .main .container .description .register-btn {
+    font-size: 2.3rem;
+    width: 233px;
+  }
+
+  /* FOOTER */
+  .social-links .social-link a i {
+    font-size: 2.3rem;
+    width: 49px;
+    height: 49px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background: url('../images/bg-desktop.svg') center center no-repeat
+      var(--Violet);
+    background-size: cover;
+  }
+
+  /* HEADER */
+  .header {
+    padding: 61px;
+  }
+
+  /* MAIN */
+  .main .container {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 49px;
+    justify-content: center;
+
+  }
+
+  .main .container img {
+    width: 50%;
+  }
+
+  .main .container .description {
+    margin-top: 31px;
+    text-align: start;
+    align-items: flex-start;
+  }
+
+  .main .container .description h1 {
+    font-size: 3.98rem;
+    max-width: 455px;
+  }
+
+  .main .container .description p {
+    font-size: 2.3rem;
+    max-width: 710px;
+  }
+
+  .main .container .description .register-btn {
+    padding: 20px;
+  }
+
+  /* FOOTER */
+  .social-links {
+    justify-content: flex-end;
+    padding-right: 95px;
+  }
+}
